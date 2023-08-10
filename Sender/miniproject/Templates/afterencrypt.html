@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    /* Center the content */
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(to bottom right, #ffd700, #001f3f);
+      animation: gradientAnim 5s ease infinite;
+    }
+
+    /* Add animation to the background */
+    @keyframes gradientAnim {
+      0% {
+        background: linear-gradient(to bottom right, #ffd700, #001f3f);
+      }
+      50% {
+        background: linear-gradient(to bottom right, #001f3f, #ffd700);
+      }
+      100% {
+        background: linear-gradient(to bottom right, #ffd700, #001f3f);
+      }
+    }
+  </style>
+  <body>
+    <center>
+      <h1>Successfully encrypted!</h1>
+      <br /><br />
+      <h2>Plaintext: {{ plaintext }}</h2>
+      <br />
+      <h2>Encryption key: {{ x1 }}</h2>
+      <br />
+      <h2>Decryption key: {{ x2 }}</h2>
+      <br />
+      <h2>Cipher text: {{ Cipher }}</h2>
+      <br />
+    </center>
+  </body>
+</html>
