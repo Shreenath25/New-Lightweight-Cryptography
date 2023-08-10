@@ -3,8 +3,8 @@ A Django web application consisting of two interconnected apps: the Sender and t
 
 1.Sender App:
 
-	- User Interface: The Sender app presents users with a user-friendly interface that includes three options to encrypt data: Text, File, and Image.
-	- Encryption Process: When a user selects a particular data type to encrypt, the system applies the lightweight cryptography algorithm with 5 rounds and a Feistel structure   along with logical operations for encryption.
+  - User Interface: The Sender app presents users with a user-friendly interface that includes three options to encrypt data: Text, File, and Image.
+  - Encryption Process: When a user selects a particular data type to encrypt, the system applies the lightweight cryptography algorithm with 5 rounds and a Feistel structure   along with logical operations for encryption.
   - Automatic Encryption: The selected data is automatically encrypted upon clicking the 'Encrypt' button and securely stored on the local machine.
   - Security Assurance: The Sender app ensures that the encryption process is robust and provides a secure channel for data transfer to the Receiver.
 
